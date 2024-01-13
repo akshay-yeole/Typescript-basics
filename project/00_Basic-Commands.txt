@@ -1,0 +1,25 @@
+1. Install typescript
+    npm install -g typescript
+
+2. Check typescript version
+    tsc -v
+
+3. get path of installed tsc 
+    where tsc
+
+4. create ts config file
+    tsc --init 
+
+5. compile typescript file
+    tsc <<filename>>.ts
+    Example : tsc hello-typescript.ts
+    It will create javascript file.
+
+6. Run javascript file
+    node <<filename>>.js
+    Example : node hello-typescript.js
+
+7. Run typescript compiler in watch mode
+    tsc -w
+
+    
